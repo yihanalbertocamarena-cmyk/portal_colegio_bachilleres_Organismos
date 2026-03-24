@@ -1,0 +1,74 @@
+.Presentacion{
+    color:darkgray;
+    border-color: black;
+    font-size: 2em;
+    font-family:fantasy,cursive;
+}
+.Habilidades{
+    color:darkslategrey;
+    font-size: 2em;
+    font-family: fantasy,cursive;
+}
+.Hobbies{
+    color: chocolate;
+    font-size: 2em;
+    font-family: fantasy,cursive;
+}
+.DebilidadesyFortalezas{
+    color: dimgray;
+    font-size: 2em;
+    font-family: fantasy,cursive;
+}
+.Escuela{
+    color: dimgray;
+    font-size: 2em;
+    font-family: fantasy,cursive;
+}
+.table,td,th{
+    border: 1px solid black;
+    color: darkgray;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.Debilidad1{
+    text-align: center;
+    border: solid;
+    color: brown;
+    font-size: 1em;
+    font-family: inherit;
+}
+.Debilidad2{
+    text-align: left;
+    border: ridge;
+    color: crimson;
+    font-size: 1em;
+    font-family: inherit;
+}
+.Debilidad3{
+    text-align: right;
+    border: inset;
+    color: chocolate;
+    font-size: 1em;
+    font-family: inherit;
+}
+.Fortaleza1{
+    text-align: right;
+    border: dashed;
+    color: darkgoldenrod;
+    font-size: 1em;
+    font-family: inherit;
+}
+.Fortaleza2{
+    text-align: center;
+    border: groove;
+    color: firebrick;
+    font-size: 1em;
+    font-family: inherit;
+}
+.Fortaleza3{
+    text-align: left;
+    border: double;
+    color:darkgreen;
+    font-size: 1em;
+    font-family: inherit;
+}
