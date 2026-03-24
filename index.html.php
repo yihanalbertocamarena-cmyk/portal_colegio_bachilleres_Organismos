@@ -1,0 +1,198 @@
+<?php
+?>
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title> Herencia Genetica </title>
+    <link rel="stylesheet" href="css/Style2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--
+        { <ul> } es una lista sin orden para crear la lista que será el menú
+
+        { <li> } es el elemento de la lista en el que cada subtema es un punto de la lista
+
+        { <a href= "#home"> } es un enlace para dirigirse al { id="home" }, lo que hay que cambiar para 
+        dirigirse a otro lado es el nombre del id dentro del enlace y en el código
+
+        { style= "..."} sirve para modificar el css en la etiqueta que se esta poniendo
+
+        { list-style: none; } es para quitar los puntos de la lista
+
+        { display: flex; } es para poner los elementos de la lista en una sola línea (horizontal)
+
+        { gap: 20px; } es para poner un espacio entre cada elemento de la lista, se puede cambiar con el número
+
+        { justify-content: flex-end; } es para alinear el menú a la derecha, la alineacion se puede cambiar 
+         al cambiar la ultima palabra por { center } para el centro o { flex-start } para alinear a la izquierda
+
+        { nav } sirve para que el código sepa que es un área de navegación, es decir, un menú
+
+        { padding-right: 30px; } es para poner un espacio entre el menú y el borde derecho, se puede cambiar 
+        con el número
+        -->
+    <div class="fondo">
+        <br>
+        <div class="component">
+            <nav>
+                <ul style="list-style: none; display: flex; gap: 20px; justify-content: flex-start; padding-left: 30px;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#movimientos">Procesos</a></li>
+                    <li><a href="#protestas">Tipos de elementos genéticos</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="titulin">
+            <h1 style="text-align: left;">Herencia Genetica</h1> <br>
+            <h5>Esta página está dedicada al proceso mediante el cual los seres vivos transmiten características de una generación a otra.
+            </h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <section>
+
+        <section id="home">
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card1-home.jfif" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Herencia genética</h3>
+                            <p class="card-text" style="text-align: justify;">La herencia genética explica cómo se transmiten características de padres a hijos
+                                    Está basada en la información contenida en el ADN.
+                                     Permite la diversidad biológica entre los seres vivos.
+                                    Es fundamental para la evolución y adaptación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card2-home.jfif" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Moléculas de la genética</h3>
+                            <p class="card-text" style="text-align: justify;">Existen diferentes moléculas importantes:
+
+                                    ADN (almacena información)
+                                    ARN (transporta información)
+                                    Proteínas (ejecutan funciones celulares)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card3-home.jfif" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Importancia de la genética</h3>
+                            <p class="card-text" style="text-align: justify;">Permite entender enfermedades hereditarias.
+                                    Explica la evolución de las especies.
+                                    Es clave en la medicina moderna y biotecnología.
+                                    Ayuda en estudios de identidad y parentesco</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="movimientos">
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card1-movimientos.jfif" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Procesos Geneticos</h3>
+                            <p class="card-text" style="text-align: justify;">Los procesos genéticos explican cómo se transmite la información hereditaria en los seres vivos.
+                                    Se basan en el funcionamiento del ADN y otras moléculas.
+                                    Existen tres tipos de procesos fundamentales: replicación, transcripción y traducción.
+                                    El estudio de la genética permite comprender la herencia, la diversidad y la evolución de las especies. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card2-movimientos.jfif" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Procesos de Herencia</h3>
+                            <p class="card-text" style="text-align: justify;">
+                            <ul style="justify-content: flex-start;">
+                                <li>Replicación del ADN</li>
+                                <li>Transcripción genética ADN → ARN</li>
+                                <li>Traducción síntesis de Proteína</li>
+                            </ul>
+                            </p>
+                            <spam boton><a href="https://www.youtube.com/watch?v=MQ8V8GKQmg4" class="btn btn-dark">Video informativo de los movimientos</a>
+                            </spam>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card3-movimientos.jfif" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Descubrimiento</h3>
+                            <p class="card-text" style="text-align: justify;">El desarrollo de la genética moderna ha permitido avances en medicina, biotecnología y estudios de enfermedades hereditarias.
+                                Estos descubrimientos han sido fundamentales para comprender la vida y la evolución.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="protestas">
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card1-protestas.jfif" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">ADN</h3>
+                            <p class="card-text" style="text-align: justify;">El ADN es la molécula que almacena toda la información genética de los seres vivos.
+                                    Tiene estructura de doble hélice y se encuentra en el núcleo celular</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card2-protestas.jfif" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">ARN</h3>
+                            <p class="card-text" style="text-align: justify;">El ARN participa en la síntesis de proteínas.
+                                Transporta la información genética desde el ADN hacia los ribosomas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Imagenes/card3-protestas.jfif" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Genes</h3>
+                            <p class="card-text" style="text-align: justify;">Los Gen son fragmentos de ADN que determinan características hereditarias.
+                                Se transmiten de padres a hijos y generan diversidad biológica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </section>
+
+</body>
+
+</html>
